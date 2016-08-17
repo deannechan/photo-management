@@ -1,0 +1,31 @@
+//mport bootstrap-sprockets
+@import "bootstrap-sprockets";
+
+// Import cerulean variables
+@import "bootswatch/flatly/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+@import "jquery-ui";
+
+// Bootstrap body padding for fixed navbar
+body { padding-top: 70px; }
+
+// And finally bootswatch style itself
+@import "bootswatch/flatly/bootswatch";
+
+@import "style.scss";
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.div-scroll {
+	overflow-y: auto;
+}
+
+.form-inline {
+    text-align: center;
+}
