@@ -1,6 +1,7 @@
 == README
 
 * bundle install
+* ImageMagick must be installed and Paperclip must have access to it
 
 * rake db:migrate
 * localhost:3000
